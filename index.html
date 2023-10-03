@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
     <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
     <link rel="stylesheet" href="./css/styles.css">
@@ -11,7 +18,7 @@
 <body>
     <header class="header-page">
         <nav>
-            <a href="./index.html"><span class="logo-left">Web</span><span class="logo-right">Studio</span></a>
+            <a href="./index.html" class="logo-link"><span class="logo-left">web</span><span class="logo-right">studio</span></a>
 
 
             <ul>
@@ -21,7 +28,7 @@
             </ul>
         </nav>
 
-        <address>
+        <address class="nav-address">
             <ul>
                 <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
                 <li><a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a></li>
@@ -41,49 +48,49 @@
 
             <!-- about us -->
         <section>
-            <h2>About us</h2>
+            <h2 class="about-title">About us</h2>
                 <ul>
                     <li>
                         <h3>Strategy</h3>
-                        <p>Our goal is to identify the business
+                        <p class="about-text">Our goal is to identify the business
                         problem to walk away with the perfect and creative solution.</p>
                     </li>
                     
                     <li>
                         <h3>Punctuality</h3>
-                        <p>Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
+                        <p class="about-text">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
                     </li>
                     <li>
                         <h3>Diligence</h3>
-                        <p>Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
+                        <p class="about-text">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
                     </li>
                     <li>
                         <h3>Technologies</h3>
-                        <p>Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
+                        <p class="about-text">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
                     </li>
                 </ul>
         </section>
 
         <!-- team -->
         <section class="team-page">
-            <h2>Our Team</h2>
-                <ul>
-                    <li>
+            <h2 class="team-title">Our Team</h2>
+                <ul class="team-list">
+                    <li class="team-item">
                         <img src="./images/img1.jpg" alt="guy with a bread" width="264" height="260">
                         <h3>Mark Guerrero</h3>
                         <p>Product Designer</p>
                     </li>
-                    <li>
+                    <li class="team-item">
                         <img src="./images/img2.jpg" alt="a very cheerful guy" width="264" height="260">
                         <h3>Tom Ford</h3>
                         <p>Frontend Developer</p>
                     </li>
-                    <li>
+                    <li class="team-item">
                         <img src="./images/img3.jpg" alt="sweet girl" width="264" height="260">
                         <h3>Camila Garcia</h3>
                         <p>Marketing</p>
                     </li>
-                    <li>
+                    <li class="team-item">
                         <img src="./images/img4.jpg" alt="a guy who develops a graphical interface" width="264" height="260">
                         <h3>Daniel Wilson</h3>
                         <p>UI Designer</p>
@@ -92,44 +99,44 @@
             </section>
 
             <section>
-                <h2>Our Portfolio</h2>
-                <ul>
-                    <li>
+                <h2 class="portfolio-title">Our Portfolio</h2>
+                <ul class="portfolio-list">
+                    <li class="portfolio-item">
                         <img src="./images/portfolio-img1.jpg" alt="bank application" 
                         width="360" 
                         height="300">
                         <h3>Banking App</h3>
                         <p>App</p>
                     </li>
-                    <li>
+                    <li class="portfolio-item">
                         <img src="./images/portfolio-img2.jpg" alt="scanning of qr codes" 
                         width="360" 
                         height="300">
                         <h3>Cashless Payment</h3>
                         <p>Marketing</p>
                     </li>
-                    <li>
+                    <li class="portfolio-item">
                         <img src="./images/portfolio-img3.jpg" alt="application on your phone and laptop" 
                         width="360" 
                         height="300">
                         <h3>Meditation App</h3>
                         <p>App</p>
                     </li>
-                    <li>
+                    <li class="portfolio-item">
                         <img src="./images/portfolio-img4.jpg" alt="driver in the car" 
                         width="360" 
                         height="300">
                         <h3>Taxi Service</h3>
                         <p>Marketing</p>
                     </li>
-                    <li>
+                    <li class="portfolio-item">
                         <img src="./images/portfolio-img5.jpg" alt="illustrative pictures on your phone" 
                         width="360" 
                         height="300">
                         <h3>Screen Illustrations</h3>
                         <p>Design</p>
                     </li>
-                    <li>
+                    <li class="portfolio-item">
                         <img src="./images/portfolio-img6.jpg" alt="a girl is talking on the phone" 
                         width="360" 
                         height="300">
@@ -141,7 +148,8 @@
     </main>
 
     <footer class="footer-page">
-        <a href="./index.html"><span class="logo-left">Web</span><span class="logo-right">Studio</span></a>
+        <a href="./index.html" class="logo-link"><span class="logo-left">Web</span></a>
+        <a href="./index.html" class="logo-link"><span class="logo-right">Studio</span></a>
 
         <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
     </footer>
