@@ -36,7 +36,7 @@ h2 {
     font-size: 36px;
     line-height: 1.2;
     font-weight: 700;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
 }
 
 h3 {
@@ -59,17 +59,6 @@ button {
     text-transform: uppercase;
 
     color: #2E2F42;
-}
-
-.footer-link {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-
-    color: #F4F4FD;
 }
 
 .nav-address {
@@ -198,7 +187,7 @@ button {
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 
     color: #4D5AE5;
